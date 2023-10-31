@@ -16,13 +16,13 @@ It contains one global server (IP: 8.8.8.8) with one web server (NGINX), one app
 
 - **What is a server?**
 
-    It's a computer or system responsible for providing services, resources, or data to other computers, known as clients, over a network. In this case, it hosts the website for www.foobar.com.
+    It's a computer or system responsible for providing services, resources, or data to other computers, known as clients, over a network. In this case, it hosts the website for `www.foobar.com``.
 
 - **What is the role of the domain name?**
 
-    In this case, "foobar.com," is a human-readable address that allows users to access the website. It acts as a user-friendly reference to the server's IP address.
+    In this case, `foobar.com` is a human-readable address that allows users to access the website. It acts as a user-friendly reference to the server's IP address.
 
-- **What type of DNS record www is in www.foobar.com?**
+- **What type of DNS record www is in `www.foobar.com`?**
 
     The "www" is typically a CNAME (Canonical Name) DNS record, which is an alias for the domain name, directing it to the server's IP address.
 
