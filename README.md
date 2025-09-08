@@ -23,8 +23,6 @@ This repository contains resources and exercises for the System Engineering DevO
 
 Currently, it includes a single project focused on Web Infrastructure Design, with diagrams and explanations for building, securing, and scaling web stacks.
 
-For detailed explanations of each task, please refer to the README in the corresponding project folder.
-
 ## <span id="files-description">Files description</span>
 
 | **FILES**                   | **DESCRIPTION**                                     |
