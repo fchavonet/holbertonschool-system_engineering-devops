@@ -1,35 +1,59 @@
-<img  height="50px" align="right" src="https://apply.holbertonschool.com/holberton-logo.png">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
-# Web infrastructure design
+# Project title
 
-## 🎓 Objective
+## Table of contents
 
-At the end of this project, I had to be able to explain to anyone, without the help of Google :
+<details>
+    <summary>
+        CLICK TO ENLARGE 😇
+    </summary>
+    <a href="#description">Description</a>
+    <br>
+    <a href="#objectives">Objectives</a>
+    <br>
+    <a href="#requirements">Requirements</a>
+    <br>
+    <a href="#instructions">Instructions</a>
+    <br>
+    <a href="#tech-stack">Tech stack</a>
+    <br>
+    <a href="#files-description">Files description</a>
+    <br>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <br>
+    <a href="#thanks">Thanks</a>
+    <br>
+    <a href="#authors">Authors</a>
+</details>
 
-- You must be able to draw a diagram covering the web stack you built with the sysadmin/devops track projects.
-- You must be able to explain what each component is doing.
-- You must be able to explain system redundancy.
-- Know all the mentioned acronyms: LAMP, SPOF, QPS.
+## <span id="description">Description</span>
 
-## 🔨 Tech stack
+This project focuses on web infrastructure design, by creating diagrams and explaining the role of each component in a typical web stack.
 
-<p align="left">
-    <img src="https://img.shields.io/badge/DRAW.IO-F08705?logo=diagramsdotnet&logoColor=white&style=for-the-badge" alt="Photoshop badge">
-    <img src="https://img.shields.io/badge/PHOTOSHOP-31A8FF?logo=adobephotoshop&logoColor=white&style=for-the-badge" alt="Photoshop badge">
-    <img src="https://img.shields.io/badge/UBUNTU-e95420?logo=ubuntu&logoColor=white&style=for-the-badge" alt="Ubuntu badge">
-    <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
-<p>
+The final goal is to be able to whiteboard different architectures and explain them clearly in an interview or peer-learning setting.
 
-## 📋 Requirements
+## <span id="objectives">Objectives</span>
 
-- For each task, once you are done whiteboarding (on a whiteboard, piece of paper or software or your choice), take a picture/screenshot of your diagram.
-- Upload a screenshot, showing that you completed the required levels, to any image hosting service.
-- For the following tasks, insert the link from of your screenshot into the answer file.
-- After pushing your answer file to GitHub, insert the GitHub file link into the URL box.
+At the end of this project, I should be able to explain to anyone, **without the help of Google**:
 
-## 📝 Instruction
+- Draw and explain a complete web stack.  
+- Describe the role of each component (server, DNS, web server, application server, database).  
+- Explain system redundancy and scaling principles.  
+- Understand acronyms like LAMP, SPOF, and QPS.  
+- Identify security concerns and monitoring strategies. 
 
-### <span id="mandatory-tasks">Mandatory tasks</span>
+## <span id="requirements">Requirements</span>
+
+- Create diagrams for each task (whiteboard, paper or draw.io).  
+- Upload screenshots of the diagrams to an image hosting service.  
+- Link screenshots inside each task file.  
+- Be ready to whiteboard live in front of staff or peers (no notes or computer).  
+- Keep explanations short and precise (like in interviews). 
+
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
 	<summary>
@@ -66,6 +90,7 @@ Requirements:
     - Cannot scale if too much incoming traffic.
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+
 #
 **Repo:**
 - GitHub repository: `holbertonschool-system_engineering-devops`.
@@ -105,6 +130,7 @@ Requirements:
     - No monitoring.
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+
 #
 **Repo:**
 - GitHub repository: `holbertonschool-system_engineering-devops`.
@@ -142,6 +168,7 @@ Requirements:
     - Why having servers with all the same components (database, web server and application server) might be a problem?
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+
 #
 **Repo:**
 - GitHub repository: `holbertonschool-system_engineering-devops`.
@@ -171,30 +198,73 @@ Requirements:
     - For every additional element, why you are adding it.
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+
 #
 **Repo:**
 - GitHub repository: `holbertonschool-system_engineering-devops`.
 - Directory: `web_infrastructure_design`.
-- File: `https://intranet.hbtn.io/rltoken/QHWrcB0kVYwbgWCsL57mkQ`.
+- File: `3-scale_up`.
 <hr>
 </details>
 
-## 📂 Files description
+## <span id="tech-stack">Tech stack</span>
 
-| **FILE** | **DESCRIPTION** |
-| :-----: | ----- |
-| all_for_one.md | A file with all the diagram screenshots to get a good overview and compare them easily. |
-| 0-simple_web_stack | Task 0 response with screenshot links. |
-| 0-simple_web_stack.md | Detailed explanation for Task 0 diagram. |
-| 1-distributed_web_infrastructure | Task 1 response with screenshot links. |
-| 1-distributed_web_infrastructure.md | Detailed explanation for Task 1 diagram. |
-| 2-secured_and_monitored_web_infrastructure | Task 2 response with screenshot links. |
-| 2-secured_and_monitored_web_infrastructure.md | Detailed explanation for Task 2 diagram. |
-| 3-scale_up | Task 3 response with screenshot links. |
-| 3-scale_up.md | Detailed explanation for Task 3 diagram. |
-| README.md | The readme file you are currently reading 😉. |
-| assets | Directory with diagram screenshots. |
+<p align="left">
+    <img src="https://img.shields.io/badge/DRAW.IO-F08705?logo=diagramsdotnet&logoColor=white&style=for-the-badge" alt="Photoshop badge">
+    <img src="https://img.shields.io/badge/PHOTOSHOP-011e37?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIHN0cm9rZT0iI2ZmZmZmZiI+Cg08ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCIvPgoNPGcgaWQ9IlNWR1JlcG9fdHJhY2VyQ2FycmllciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cg08ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDxnIGlkPSIyMDY5YTQ2MGRjZjI4Mjk1ZTIzMWYzMTExZTAzNzU1MiI+IDxwYXRoIGRpc3BsYXk9ImlubGluZSIgZD0iTTQyNi4zMzMsMC41SDg1LjY2N0MzOC44MjUsMC41LDAuNSwzOC44MjUsMC41LDg1LjY2N3YzNDAuNjY3YzAsNDYuODQyLDM4LjMyNSw4NS4xNjcsODUuMTY3LDg1LjE2NyBoMzQwLjY2N2M0Ni44NDIsMCw4NS4xNjctMzguMzI1LDg1LjE2Ny04NS4xNjdWODUuNjY3QzUxMS41LDM4LjgyNSw0NzMuMTc1LDAuNSw0MjYuMzMzLDAuNXogTTI0NS4zMjksMjYwLjUyNCBjLTE3LjczNiwxNy43MzYtNDUuNjExLDI2LjA2NS03Ny4xMDMsMjYuMDY1Yy04LjMyNiwwLTE1LjkyNy0wLjM2NS0yMS43Mi0xLjQ1MXY5MS45NDVoLTQ0LjE1OVYxMzYuMzYzIGMxNS45MjctMi44OTUsMzguMDA5LTUuMDY5LDY4LjA1LTUuMDY5YzMyLjU4MiwwLDU2LjQ3Myw2Ljg3OCw3Mi4wMzksMTkuOTExYzE0LjQ4LDExLjk0NywyMy44OSwzMS4xMzEsMjMuODksNTMuOTM2IEMyNjYuMzI1LDIyOC4zMDksMjU5LjA4NiwyNDcuNDkyLDI0NS4zMjksMjYwLjUyNHogTTMzNy45ODEsMzgwLjcwNmMtMjEuMzU4LDAtNDAuNTQyLTUuMDY5LTUzLjU3NC0xMi4zMWw4LjY4Ny0zMi4yMTYgYzEwLjEzNSw2LjE1NCwyOS4zMjIsMTIuNjcxLDQ1LjI0OSwxMi42NzFjMTkuNTQ1LDAsMjguMjM2LTcuOTY0LDI4LjIzNi0xOS41NDljMC0xMS45NDMtNy4yMzktMTguMDk5LTI4Ljk2LTI1LjcgYy0zNC4zOTEtMTEuOTQ3LTQ4Ljg2Ni0zMC43NjktNDguNTA1LTUxLjQwM2MwLTMxLjEzMSwyNS43LTU1LjM4Myw2Ni42MDQtNTUuMzgzYzE5LjU0OSwwLDM2LjU2Miw1LjA2OSw0Ni42OTUsMTAuNDk2IGwtOC42ODcsMzEuNDkzYy03LjYwMi00LjM0Mi0yMS43MjEtMTAuMTM1LTM3LjI4NS0xMC4xMzVjLTE1LjkyOCwwLTI0LjYxNSw3LjYwMi0yNC42MTUsMTguNDZjMCwxMS4yMjQsOC4zMjYsMTYuNjU1LDMwLjc3LDI0LjYxOCBjMzEuODU0LDExLjU4Miw0Ni42OTYsMjcuODcxLDQ3LjA1OCw1My45MzdDNDA5LjY1MywzNTcuNTM5LDM4NC42NzgsMzgwLjcwNiwzMzcuOTgxLDM4MC43MDZ6IE0yMjEuOCwyMDYuOTUgYzAsMjguNTk4LTIwLjI3Myw0NC44ODctNTMuNTc0LDQ0Ljg4N2MtOS4wNDksMC0xNi4yODktMC4zNjItMjEuNzItMS44MDl2LTgyLjUzNGM0LjcwOC0xLjA4NSwxMy4zOTUtMi4xNzEsMjUuNzA0LTIuMTcxIEMyMDIuOTc5LDE2NS4zMjMsMjIxLjgsMTc5LjgwMywyMjEuOCwyMDYuOTV6Ij4gPC9wYXRoPiA8L2c+IDwvZz4KDTwvc3ZnPg==&logoColor=white&style=for-the-badge" alt="Photoshop badge">
+    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
+    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
+</p>
 
-## ♥️ Thanks
+## <span id="files-description">Files description</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+| **FILES**                                       | **DESCRIPTION**                                                             |
+| :---------------------------------------------: | --------------------------------------------------------------------------- |
+| `assets`                                        | Contains the resources required for the repository.                         |
+| `0-simple_web_stack`                            | Task 0 response with screenshot links.                                      |
+| `0-simple_web_stack.md`                         | Detailed explanation for Task 0 diagram.                                    |
+| `1-distributed_web_infrastructure`              | Task 1 response with screenshot links.                                      |
+| `1-distributed_web_infrastructure.md`           | Detailed explanation for Task 1 diagram.                                    |
+| `2-secured_and_monitored_web_infrastructure`    | Task 2 response with screenshot links.                                      |
+| `2-secured_and_monitored_web_infrastructure.md` | Detailed explanation for Task 2 diagram.                                    |
+| `3-scale_up`                                    | Task 3 response with screenshot links.                                      |
+| `3-scale_up.md`                                 | Detailed explanation for Task 3 diagram.                                    |
+| `all_for_one.md`                                | Contains all diagram screenshots for a global overview and easy comparison. |
+| `README.md`                                     | The README file you are currently reading 😉.                               |
+
+## <span id="installation_and_how_to_use">Installation and how to use</span>
+
+### Installation:
+
+1. Clone this repository:
+    - Open your preferred Terminal.
+    - Navigate to the directory where you want to clone the repository.
+    - Run the following command:
+
+```bash
+git clone https://github.com/fchavonet/holbertonschool-system_engineering-devops.git
+```
+
+2. Open the repository you've just cloned.
+
+3. Navigate to the `web_infrastructure_design` directory:
+
+```bash
+cd web_infrastructure_design
+```
+
+You can also view all diagrams in a single file for a global overview by clicking [here](./all_for_one.md).
+
+### How to use:
+
+1. Open the `.md` files or the diagrams in the assets folder.
+
+## <span id="thanks">Thanks</span>
+
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
+
+## <span id="authors">Authors</span>
+
+**Fabien CHAVONET**
+- GitHub: [@fchavonet](https://github.com/fchavonet)
